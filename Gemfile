@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 gem 'pg'
 gem 'devise'
 gem 'simple_form'
+gem 'toggl_api'
 
 group :development, :test do
   gem 'rspec-rails'

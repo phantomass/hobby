@@ -1,3 +1,4 @@
 <p>Email: <%= @user.email  %></p>
 <p><%= link_to "Изменить регистр. данные", edit_user_registration_path %></p>
 <p><%= link_to "Выйти", destroy_user_session_path, method: "delete" %></p>
+<%= @base.me(true) %>
